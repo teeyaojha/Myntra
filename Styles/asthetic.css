@@ -1,0 +1,159 @@
+.aesthetic-grid { display: flex; flex-direction: column; }
+.grid-row { justify-content: space-between; width: 100%; }
+@media (max-width: 991px) { .grid-row { max-width: 100%; } }
+.row-content { gap: 20px; display: flex; }
+@media (max-width: 991px) { .row-content { flex-direction: column; align-items: stretch; gap: 0; } }
+.category-card { border-radius: 10px; box-shadow: 0 0 35px 15px rgba(0, 0, 0, 0.1); background-color: #fffbef; display: flex; flex-direction: column; padding: 0 37px 12px; color: #29303e; font-weight: 700; text-align: center; line-height: 28px; }
+@media (max-width: 991px) { .category-card { padding: 0 20px; margin-top: 40px; } }
+.category-image { aspect-ratio: 1.54; object-fit: cover; width: 100%; z-index: 10; margin-top: -79px; }
+.category-title { color: #e72744; text-transform: capitalize; margin-top: 17px; font: 28px/75% Poppins, sans-serif; }
+.category-tags { margin-top: 20px; font: 800 20px Lato, sans-serif; }
+.category-description { margin-top: 23px; font: 18px Lato, sans-serif; }
+.shop-now-link { color: #f05524; margin-top: 33px; font: 600 14px/150% Poppins, sans-serif; }
+.shop-now-underline { border-radius: 7px; background-color: #f05524; width: 78px; height: 1px; margin: 0 auto; }
+.explore-more-button { border-radius: 8px; background-color: #f05524; align-self: center; display: flex; margin-top: 51px; gap: 20px; font-size: 18px; color: #fffbef; font-weight: 600; padding: 21px 20px; }
+@media (max-width: 991px) { .explore-more-button { margin-top: 40px; } }
+.explore-more-text { font-family: Montserrat, sans-serif; flex-grow: 1; }
+.explore-more-icon { aspect-ratio: 2.13; object-fit: contain; width: 17px; margin: auto 0; }
+
+.hero-title {
+  position: relative;
+  color: #29303e;
+  margin-top: 66px;
+  left: 950px;
+  font: 800 40px/140% Montserrat, sans-serif;
+}
+
+.divider {
+  position: relative;
+  left: 920px;
+  border: 1px solid #29303e;
+  background-color: #29303e;
+  width: 394px;
+  max-width: 100%55;  height: 1px;
+  margin:5px 0 0 19px;
+}
+
+.hero-description {
+  position: relative;
+  left: 910px;
+  color: #f05524;
+  width: 393px;
+  margin: 10px 0 108px 35px;
+  font: 700 24px/38px Montserrat, sans-serif;
+}
+
+.aesthetic-grid {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.grid-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 991px) {
+  .grid-row {
+    flex-direction: column;
+  }
+}
+
+.category-card {
+  flex: 1;
+  border-radius: 10px;
+  box-shadow: 0 0 35px 15px rgba(0, 0, 0, 0.1);
+  background-color: #fffbef;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 20px;
+  margin: 0 10px;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .category-card {
+    margin: 0 0 40px;
+  }
+}
+
+.category-image {
+  width: calc(100% + 40px);
+  margin: -20px -20px 0;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  aspect-ratio: 1.54;
+}
+
+.category-title {
+  color: #e72744;
+  font-family: Poppins, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 20px 0 10px;
+}
+
+.category-tags {
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.category-description {
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.shop-now-link {
+  color: #f05524;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.shop-now-underline {
+  width: 78px;
+  height: 1px;
+  background-color: #f05524;
+  margin: 5px auto 0;
+}
+
+.explore-more-button {
+  background-color: #f05524;
+  border: none;
+  border-radius: 8px;
+  color: #fffbef;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  justify-content: center;
+  margin: 40px auto 0;
+  padding: 15px 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.explore-more-button:hover {
+  background-color: #d64d1f;
+}
+
+.explore-more-icon {
+  width: 20px;
+  height: auto;
+  margin-left: 10px;
+}

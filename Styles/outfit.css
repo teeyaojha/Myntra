@@ -1,0 +1,132 @@
+.outfit-tips-container {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 40px;
+    color: #f05524;
+    font-weight: 800;
+    text-align: center;
+    line-height: 140%;
+    padding: 0 20px;
+  }
+  .new-title{
+    color: #29303E;
+  }
+  .outfit-tips-title {
+    font-family: Montserrat, sans-serif;
+    
+    width: 100%;
+  }
+  
+  .outfit-tips-image {
+    aspect-ratio: 2.5;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+    box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.24);
+    align-self: center;
+    margin-top: 19px;
+    max-width: 1068px;
+  }
+  
+  @media (max-width: 991px) {
+    .outfit-tips-title,
+    .outfit-tips-image {
+      max-width: 100%;
+    }
+  }
+
+  .style-tips-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Montserrat, sans-serif;
+    color: #29303e;
+  }
+
+  .intro-text {
+    font-size: 28px;
+    line-height: 1.4;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+
+  .tip-section {
+    display: flex;
+    width: fit-content;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+
+  .tip-content {
+    flex: 1;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: medium;
+  }
+
+  .tip-image {
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .tip-extra {
+    width: 600px;
+    height: auto;
+    align-self: center;
+    margin-top: 10px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .tip-reverse .tip-image {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+
+  .tip-text {
+    font-size: 24px;
+    line-height: 1.3;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .tip-description {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .tip-list {
+    padding-left: 20px;
+  }
+
+  .additional-tips {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    line-height: 1.3;
+  }
+
+  @media (max-width: 768px) {
+    .tip-section {
+      flex-direction: column;
+    }
+
+    .tip-image {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 20px;
+    }
+
+    .tip-reverse .tip-image {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+  

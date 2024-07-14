@@ -1,0 +1,312 @@
+.hero-title {
+    position: relative;
+    color: #29303e;
+    width: 400px;
+    margin-top: 100px;
+    left: 930px;
+    font: 800 40px/140% Montserrat, sans-serif;
+  }
+  
+  .divider {
+    position: relative;
+    left: 920px;
+    border: 1px solid #29303e;
+    background-color: #29303e;
+    width: 394px;
+    max-width: 100%55;  
+    height: 1px;
+    margin:5px;
+  }
+  
+  .hero-description {
+    position: relative;
+    left: 900px;
+    color: #f05524;
+    width: 393px;
+    margin: 10px 0 108px 35px;
+    font: 700 24px/38px Montserrat, sans-serif;
+  }
+  .aesthetic-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+    padding: 0 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .aesthetic-description {
+    color: #29303e;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.6;
+    width: 100%;
+  }
+
+  .aesthetic-title {
+    font-family: Montserrat, sans-serif;
+    margin-top: 1px;
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .aesthetic-subtitle {
+    margin-top: 20px;
+    width: 150%;
+    font: 600 24px Montserrat, sans-serif;
+  }
+
+  .bold-text {
+    font-weight: 600;
+  }
+
+  .medium-text {
+    font-weight: 500;
+  }
+
+  ul {
+    padding-left: 5px;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 991px) {
+    .aesthetic-description,
+    .aesthetic-title,
+    .aesthetic-subtitle {
+      max-width: 150%;
+    }
+    .aesthetic-title {
+      margin-top: 30px;
+    }
+  }
+  .accessories-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  
+  .product-grid {
+    width: 100%;
+  }
+  
+  .grid-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .product-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 25%;
+  }
+  
+  .product-image {
+    aspect-ratio: 0.57;
+    object-fit: cover;
+    width: 100%;
+    max-width: 310px;
+  }
+  
+  .explore-button {
+    border-radius: 8px;
+    background-color: #f05524;
+    align-self: center;
+    display: flex;
+    margin-top: 29px;
+    gap: 20px;
+    font: 600 18px Montserrat, sans-serif;
+    color: #fffbef;
+    padding: 21px 20px;
+  }
+  
+  .button-text {
+    flex-grow: 1;
+  }
+  
+  .arrow-icon {
+    aspect-ratio: 2.13;
+    width: 17px;
+    margin: auto 0;
+  }
+  
+  .section-title {
+    color: #000;
+    align-self: start;
+    margin-top: 54px;
+    font: 600 28px Montserrat, sans-serif;
+  }
+  
+  .shop-all-button {
+    border-radius: 8px;
+    background-color: #f13ab1;
+    align-self: center;
+    display: flex;
+    margin-top: 29px;
+    width: 436px;
+    max-width: 100%;
+    gap: 20px;
+    font: 600 18px Montserrat, sans-serif;
+    color: #fffbef;
+    padding: 21px 41px;
+  }
+  
+  .shop-all-icon {
+    aspect-ratio: 4.35;
+    width: 35px;
+    margin: auto 0;
+  }
+  
+  @media (max-width: 991px) {
+    .product-grid {
+      max-width: 100%;
+      padding-right: 20px;
+    }
+  
+    .grid-container {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 40px;
+    }
+  
+    .product-column {
+      width: 100%;
+    }
+  
+    .section-title {
+      margin: 40px 0 0 4px;
+    }
+  
+    .shop-all-button {
+      flex-wrap: wrap;
+      padding: 21px 20px;
+    }
+  }
+  .styling-tips {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    color: #29303e;
+    font: 700 28px/40px Montserrat, sans-serif;
+  }
+  .tips-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  .tip-item {
+    margin-bottom: 15px;
+  }
+  .tip-title {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .tip-content {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .articles-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 100%;
+  }
+  .article-card {
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.08);
+    background-color: #fffbef;
+    display: flex;
+    padding: 25px 30px;
+    width: 48%;
+  }
+  .article-image {
+    width: 40%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .article-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 20px;
+    width: 60%;
+  }
+  .article-title {
+    color: #e72744;
+    text-transform: capitalize;
+    font: 700 24px/28px Poppins, sans-serif;
+    margin-bottom: 15px;
+  }
+  .article-description {
+    color: #29303e;
+    font: 16px/24px Lato, sans-serif;
+    margin-bottom: 20px;
+  }
+  .read-more {
+    color: #f05524;
+    font: 600 14px/150% Poppins, sans-serif;
+    text-decoration: none;
+    position: relative;
+  }
+  .read-more::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 2px;
+    background-color: #f05524;
+    border-radius: 2px;
+  }
+  .explore-more {
+    border-radius: 8px;
+    background-color: #f05524;
+    display: flex;
+    margin-top: 40px;
+    gap: 10px;
+    color: #fffbef;
+    font: 600 16px Montserrat, sans-serif;
+    padding: 15px 25px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  .explore-more:hover {
+    background-color: #d64411;
+  }
+  .explore-icon {
+    width: 15px;
+  }
+  @media (max-width: 991px) {
+    .styling-tips,
+    .articles-container {
+      max-width: 100%;
+    }
+    .articles-container {
+      flex-direction: column;
+    }
+    .article-card {
+      width: 100%;
+      margin-bottom: 20px;
+      flex-direction: column;
+      padding: 20px;
+    }
+    .article-image {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    .article-content {
+      width: 100%;
+      padding-left: 0;
+    }
+    .explore-more {
+      width: 100%;
+    }
+  }

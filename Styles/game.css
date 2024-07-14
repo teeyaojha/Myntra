@@ -1,0 +1,192 @@
+.hero-title {
+    position: relative;
+    color: #29303e;
+    align-self: center;
+    width: 400px;
+    margin-top: 100px;
+    font: 800 40px/140% Montserrat, sans-serif;
+  }
+  
+  .divider {
+    position: relative;
+    align-self: center;
+    border: 1px solid #29303e;
+    background-color: #29303e;
+    width: 394px;
+    max-width: 100%55;  
+    height: 1px;
+    margin:5px;
+  }
+  
+  .hero-description {
+    position: relative;
+    align-self: center;
+    color: #f05524;
+    width: 393px;
+    margin: 10px 0 108px 35px;
+    font: 700 24px/38px Montserrat, sans-serif;
+  }
+  .bitmoji-fashion {
+    color: #29303e;
+    font: 600 25px/25px Montserrat, sans-serif;
+    font-weight: 500;
+    padding: 5px;
+    text-align: left;
+  }
+
+.outfit-picker {
+  background: linear-gradient(106deg, #f13ab1 0%, #f05524 100%);
+  display: flex;
+  flex-direction: column;
+  padding: 27px 51px;
+}
+
+.section-title {
+  color: #29303e;
+  text-align: center;
+  align-self: center;
+  font: 800 40px/140% Montserrat, sans-serif;
+}
+
+.content-wrapper {
+  margin-top: 28px;
+  display: flex;
+  gap: 20px;
+}
+
+.main-image {
+  aspect-ratio: 0.6;
+  object-fit: cover;
+  object-position: center;
+  width: 32%;
+  border-radius: 5px;
+  align-self: stretch;
+}
+.overlay{
+    aspect-ratio: 0.6;  
+    object-position: center;
+    width: 32%;
+    border-radius: 5px;
+}
+
+.selection-panel {
+  border-radius: 5px;
+  background-color: #29303e;
+  display: flex;
+  flex-grow: 1;
+  padding-bottom: 15px;
+  flex-direction: column;
+  width: 68%;
+}
+
+.category-nav {
+  background-color: #585657;
+  display: flex;
+  font-size: 24px;
+  color: #e72744;
+  font-weight: 800;
+  text-align: center;
+  line-height: 140%;
+  justify-content: center;
+  padding: 10px 9px;
+}
+
+.category-list {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  padding: 10px 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+.category-item {
+  font-family: Montserrat, sans-serif;
+  align-self: stretch;
+  margin: auto 0;
+  cursor: pointer;
+}
+
+.category-item.active {
+  border-radius: 5px;
+  background-color: rgba(41, 48, 62, 0.3);
+  padding: 11px 13px;
+}
+
+.item-grid {
+  margin: 40px 19px 0 28px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.item-image {
+  aspect-ratio: 0.98;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  max-width: 170px;
+  cursor: pointer;
+}
+
+.item-image.selected {
+  border: 5px solid #f05524;
+}
+
+.outfit-preview {
+  margin-top: 21px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.preview-image {
+  aspect-ratio: 0.6;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  max-width: 218px;
+}
+
+@media (max-width: 991px) {
+  .outfit-picker {
+    padding: 0 20px;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+  }
+
+  .main-image,
+  .selection-panel,
+  .item-grid,
+  .outfit-preview {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .main-image {
+    aspect-ratio: 1;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .category-nav {
+    padding-right: 20px;
+  }
+
+  .category-list {
+    flex-wrap: wrap;
+  }
+
+  .item-grid,
+  .outfit-preview {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .item-image,
+  .preview-image {
+    margin-top: 40px;
+  }
+}
