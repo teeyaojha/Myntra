@@ -67,7 +67,7 @@
   align-self: stretch;
 }
 .shirt{
-	visibility:hidden;
+  visibility:hidden;
   position: absolute;
   width: 216px;
   margin-top: 207px;
@@ -75,7 +75,7 @@
   z-index: 5;
 }
 .dress{
-	visibility:hidden;
+  visibility:hidden;
   position: absolute;
   height: 130%;
   width: 216px;
@@ -84,7 +84,7 @@
   z-index: 2;
 }
 .shoes{
-	visibility:hidden;
+  visibility:hidden;
   position: absolute;
   width: 145px;
   margin-top: 592px;
