@@ -5,4 +5,4 @@ Team Details:
 2) Krishika Sahni
 3) Aditi
    
- ##College Name: Indira Gandhi Delhi Technical University for Women
+ ## College Name: Indira Gandhi Delhi Technical University for Women
